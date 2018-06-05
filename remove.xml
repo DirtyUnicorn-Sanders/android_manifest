@@ -147,17 +147,4 @@
   <remove-project name="platform/prebuilts/misc" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
   
-  <!-- DU Things -->
-  <remove-project name="frameworks/base" />
-  <remove-project name="hardware/qcom/audio-caf" />
-  <remove-project name="hardware/qcom/media-caf" />
-  <remove-project name="hardware/qcom/display-caf" />
-  <remove-project name="packages/apps/Settings" />
-  <remove-project name="packages/apps/DU-Tweaks" />
-  <remove-project name="vendor/du" />
-  <remove-project name="system/sepolicy" />
-  <remove-project name="build/make" />
-  <remove-project name="frameworks/native" />
-  <remove-project name="packages/apps/Launcher3" />  
-
 </manifest>
