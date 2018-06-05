@@ -629,4 +629,7 @@
   <!-- Add all tracked DU/AOSP repos -->
   <include name="o8x_default.xml" />
 
+  <!-- Add DU-Mod repos from DU-sanders -->
+  <include name="o8x_mod.xml" />  
+
 </manifest>
