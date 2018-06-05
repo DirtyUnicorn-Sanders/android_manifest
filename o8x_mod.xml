@@ -9,6 +9,19 @@
    <remote name="du-mod"
            revision="o8x"
            fetch="https://github.com/DirtyUnicorns-Sanders/" />
+   <!-- Untrack this from DU -->
+   <remove-project name="android_frameworks_base" />
+   <remove-project name="android_hardware_qcom_display" />
+   <remove-project name="android_hardware_qcom_audio" />
+   <remove-project name="android_hardware_qcom_media" />
+   <remove-project name="android_packages_apps_Settings" />
+   <remove-project name="android_packages_apps_DU-Tweaks" />
+   <remove-project name="android_vendor_du" />
+   <remove-project name="android_device_qcom_sepolicy" />
+   <remove-project name="android_build" />
+   <remove-project name="android_system_sepolicy" />
+   <remove-project name="android_frameworks_native" />
+   <remove-project name="android_packages_apps_Launcher3" /> 
    
    <!-- device -->
    <project path="device/motorola/sanders" name="du_device_motorola_sanders" remote="du-mod" revision="o8x-caf" />
@@ -34,17 +47,5 @@
 
    <!-- BootLeggers -->
    <project path="packages/apps/Launcher3" name="BootleggersROM/packages_apps_Launcher3" remote="github" />
-   
-   <remove-project name="android_frameworks_base" />
-   <remove-project name="android_hardware_qcom_display" />
-   <remove-project name="android_hardware_qcom_audio" />
-   <remove-project name="android_hardware_qcom_media" />
-   <remove-project name="android_packages_apps_Settings" />
-   <remove-project name="android_packages_apps_DU-Tweaks" />
-   <remove-project name="android_vendor_du" />
-   <remove-project name="android_device_qcom_sepolicy" />
-   <remove-project name="android_build" />
-   <remove-project name="android_frameworks_native" />
-   <remove-project name="android_packages_apps_Launcher3" /> 
    
 </manifest>
