@@ -34,5 +34,7 @@
 
    <!-- BootLeggers -->
    <project path="packages/apps/Launcher3" name="BootleggersROM/packages_apps_Launcher3" remote="github" />
-
+   
+   <remove-project name="android_frameworks_base" />
+   
 </manifest>
