@@ -19,6 +19,23 @@ git config --global review.gerrit.dirtyunicorns.com.email <your email you regist
 ssh-keygen -t rsa -C "your@email.com"
 ```
 
+How to Build?
+-------------
+
+To initialize your local repository using the DirtyUnicorns trees, use a 
+command like this:
+
+```bash
+  repo init -u git://github.com/DirtyUnicorn-Sanders/android_manifest.git -b o8x-caf
+```
+  
+Then to sync up:
+----------------
+
+```bash
+  repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
+```
+
 In our gerrit click on your "Avatar" on the top right, then on "Settings".
 
 While in 'Settings' Click on "SSH Public Keys" on the left hand side and then on "Add Key".
